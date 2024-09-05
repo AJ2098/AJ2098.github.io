@@ -8,7 +8,7 @@
     <!-- FontAwesome 5 -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
 </head>
-<body>
+<body style="background-color: rgb(233, 207, 173);"
     <!-- Navbar top -->
     <div class="navbar-top">
         <div class="title">
@@ -73,7 +73,7 @@
                         <tr>
                             <td>Joke Of The Week</td>
                             <td>:</td>
-                            <td>My grandfather has the heart of a lion and a lifetime ban at the zoo.</td>
+                            <td>Yo mama hair so nappy, she has to take painkillers to comb her hair. </td>
                         </tr>
                     </tbody>
                 </table>
@@ -83,6 +83,23 @@
     </div>
     <p style="position:absolute;bottom:-90px; right:0px; font-size: 92px;">&#174;</p>
     <!-- End -->
+    <p id="datetime"></p>
+
+    <script>
+      // Get current date and time
+      var now = new Date();
+      var datetime = now.toLocaleString();
     
+      // Insert date and time into HTML
+      document.getElementById("datetime").innerHTML = datetime;
+    </script>
+    <canvas id=c></canvas>
 </body>
+<script>
+    
+</script>
+
+<nav>
+    <a href="./about.html">About Me</a>
+</nav>
 </html>
