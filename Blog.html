@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+        <head>
+            
+            <link rel="stylesheet" type="text/css" href="Blog.css">
+            
+
+            <title>Blog Page</title>
+        </head>
+    <body>
+
+        <div class="flex-col h-dvh">
+
+            <div class="flex-row header">
+                <span>AJ Matulovich</span>
+            </div>
+             <div class="flex-row flex-grow">
+                <div class="flex-col nav">
+                    
+                    <a href="index.html">Profile Page</a>
+                    <a href="about.html">About Me</a>
+                    <a href="https://minesweeperonline.com/">Minesweeper</a>                    
+                </div>
+
+                <div class="flex-col flex-grow content">
+                    <p>Welcome to my Blog page, Enjoy your time.</p>
+
+                    <div class="flex-row datetime">
+                        <p id="datetime"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <script>
+        // Get current date and time
+            var now = new Date();
+            var datetime = now.toLocaleString();
+            
+            // Insert date and time into HTML
+            document.getElementById("datetime").innerHTML = datetime;
+        </script>
+
+    </body>
+</html>
