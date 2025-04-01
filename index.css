@@ -21,3 +21,8 @@
 .align-center {
     align-items: center;
 }
+
+.pfp{
+    height: 300px;
+    border-radius: 100%;
+}
